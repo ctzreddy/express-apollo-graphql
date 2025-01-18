@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+
+  node-application:
+    build: .
+    container_name: express-apollo-graphql
+    ports:
+      - "9000:4000"
+    restart: always
