@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     //console.log(loading);
     if (!loading) {
-      console.log(data.characters);
+      //console.log(data.characters);
       setresponse(data);
     }
   }, [loading]);
